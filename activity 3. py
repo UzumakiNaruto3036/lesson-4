@@ -1,0 +1,9 @@
+science=input("Enter your science marks:")
+math=input("Enter your math marks:")
+hindi=input("Enter your hindi marks:")
+english=input("Enter your english marks:")
+sum=int(science)+int(math)+int(hindi)+int(english)
+print("The total marks is:", sum)
+result=sum/400
+perc=result*100
+print("The percentage is:", perc)
